@@ -7,7 +7,7 @@ cask "tertius" do
   desc "Middle-mouse drag (orbit/pan) on the trackpad via Option + two-finger glide"
   homepage "https://github.com/realgarit/tertius"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Tertius.app"
 
