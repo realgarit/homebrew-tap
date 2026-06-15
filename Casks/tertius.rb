@@ -1,6 +1,6 @@
 cask "tertius" do
-  version "0.1.1"
-  sha256 "4b6cbcddd0633d43b124ad80736b01e13eaaa88e570ef4c60920f5af15618aa9"
+  version "0.1.2"
+  sha256 "e10f7746c8288db315f9e6698b6cc59aa7f4acbbe2d9e3de39261da888d4b687"
 
   url "https://github.com/realgarit/tertius/releases/download/v#{version}/Tertius.zip"
   name "Tertius"
