@@ -18,8 +18,8 @@ cask "teams-phonemanager" do
 
   app "Teams Phone Manager.app"
 
-  # The app is ad-hoc signed (not notarized); clear quarantine so Gatekeeper
-  # does not block the launch.
+  # The app is ad-hoc signed (not notarized); clear quarantine so
+  # Gatekeeper does not block the launch.
   postflight do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/Teams Phone Manager.app"],
