@@ -14,7 +14,7 @@ cask "teams-phonemanager" do
   desc "Microsoft Teams Phone System administration made simple"
   homepage "https://github.com/realgarit/teams-phonemanager"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Teams Phone Manager.app"
 
