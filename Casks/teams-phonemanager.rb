@@ -1,12 +1,12 @@
 cask "teams-phonemanager" do
-  version "3.21.6"
+  version "3.21.7"
 
   on_arm do
-    sha256 "fdfdd1300f2b41c3ec29ff8bb4f67fe1b665914c1ecb92fce6ae64ca2a7271ea"
+    sha256 "c221b40b78fe78c915774ab8f54b09b14182e4a70803f7bd8dccd528ca8f8791"
     url "https://github.com/realgarit/teams-phonemanager/releases/download/v#{version}/teams-phonemanager-osx-arm64.zip"
   end
   on_intel do
-    sha256 "24fb3b3cd4f1ccb40c4bcea29f89c14d3ea9181574e984981788d17fde561c80"
+    sha256 "6cdbf061d038d89e0fa509a08ad6ced0c1fe856fb81e4b4b8250eddb93f7f80e"
     url "https://github.com/realgarit/teams-phonemanager/releases/download/v#{version}/teams-phonemanager-osx-x64.zip"
   end
 
