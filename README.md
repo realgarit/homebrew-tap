@@ -1,13 +1,16 @@
 # realgarit/homebrew-tap
 
-Personal Homebrew tap.
+Personal [Homebrew tap](https://docs.brew.sh/Taps) for distributing my macOS casks.
 
-## tertius
-
-A macOS menu-bar utility: ⌥ + two-finger trackpad glide → middle-mouse drag
-(orbit/pan) for Blender / CAD. See https://github.com/realgarit/tertius.
+## Usage
 
 ```sh
-export HOMEBREW_CASK_OPTS="--no-quarantine"   # one-time, in your shell profile
-brew install --cask realgarit/tap/tertius
+brew tap realgarit/tap
+brew install --cask <formula>
+```
+
+Formulas are unsigned — to skip Gatekeeper quarantine:
+
+```sh
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 ```
