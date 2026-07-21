@@ -12,7 +12,11 @@ cask "teams-phonemanager" do
 
   name "Teams Phone Manager"
   desc "Microsoft Teams Phone System administration made simple"
-  homepage "https://github.com/realgarit/teams-phonemanager"
+  homepage "https://github.com/realgarit/phonedesk"
+
+  # The app was rebranded to PhoneDesk in July 2026; this cask stays at the
+  # final pre-rebrand version. Install the "phonedesk" cask from this tap.
+  deprecate! date: "2026-07-21", because: :discontinued, replacement_cask: "realgarit/tap/phonedesk"
 
   depends_on macos: :monterey
 
