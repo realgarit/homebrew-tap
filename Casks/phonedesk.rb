@@ -1,12 +1,12 @@
 cask "phonedesk" do
-  version "3.31.1"
+  version "3.32.0"
 
   on_arm do
-    sha256 "47fe3c1f9d5bf8cccf46907f8b6e98d2011a1e1824a982b5aa745b03154491da"
+    sha256 "f726b6bb4c78fb7977d07e509d87d4ffeb5f77f3d1a6d0d61c6b4cfda109c559"
     url "https://github.com/realgarit/phonedesk/releases/download/v#{version}/phonedesk-osx-arm64.zip"
   end
   on_intel do
-    sha256 "be71c3335412f66ffc556045cffa9dde04985621d5f9145f5957a9fe94a02c60"
+    sha256 "b895ac319844da07c1b29e429de25011c3349440ed2efa3fc5371866d87e56cb"
     url "https://github.com/realgarit/phonedesk/releases/download/v#{version}/phonedesk-osx-x64.zip"
   end
 
@@ -14,7 +14,7 @@ cask "phonedesk" do
   desc "Microsoft Teams Phone System administration made simple"
   homepage "https://github.com/realgarit/phonedesk"
 
-  depends_on macos: :monterey
+  depends_on macos: :sequoia
 
   app "PhoneDesk.app"
 
