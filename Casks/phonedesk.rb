@@ -1,12 +1,12 @@
 cask "phonedesk" do
-  version "3.39.0"
+  version "3.40.0"
 
   on_arm do
-    sha256 "e17ee62da09b832e9a6aaab3d2cfef8fceafbe5648029886a26754ebfcf55d9a"
+    sha256 "cf670323636eaaddee22c5ac78171e8517995cfa248847a5e39591b6c3af41b4"
     url "https://github.com/realgarit/phonedesk/releases/download/v#{version}/phonedesk-osx-arm64.zip"
   end
   on_intel do
-    sha256 "9af19e3f8715ba3cb0693ebd2c4db29b465469575070a97d663ab9d1008873dd"
+    sha256 "722cbee0a3d063e4a82c8311842f13e4cf810945b015d389d48aab041a59f40d"
     url "https://github.com/realgarit/phonedesk/releases/download/v#{version}/phonedesk-osx-x64.zip"
   end
 
